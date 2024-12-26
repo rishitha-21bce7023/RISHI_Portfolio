@@ -1,0 +1,227 @@
+/* Global reset with minimal styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container styling */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 80%; /* Custom width for the navbar */
+  background-color: rgba(226, 87, 0, 0.9);
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(9, 236, 13, 0.1);
+}
+
+/* Logo styling */
+.nav-logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.nav-logo a:hover {
+  color: brown;
+}
+
+/* Navigation items styling */
+.nav-items ul {
+ display: flex;
+ justify-content: flex-end;
+ list-style: none;
+}
+
+.nav-items li {
+ text-align: center;
+ color: rgb(255, 228, 95);
+ width: 80px;
+ height: 25px;
+ border-radius: 8px;
+ padding: 5px;
+ margin: 0 5px;
+ cursor: pointer;
+}
+
+.nav-items ul a {
+ text-decoration: none;
+ color: inherit;
+}
+
+.nav-items li:hover {
+ background-color: rgb(244, 243, 191);
+ color: brown;
+}
+
+.nav-items ul a:hover {
+ text-decoration: none;
+}
+
+/* Adjust margin to avoid overlap */
+.content {
+  margin-top: 80px; /* Matches the height of the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 180px 180px 250px;
+}
+
+
+/* Intro section styling */
+.intro {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 50%; /* Adjust width for intro text */
+  margin-left: 50px;
+}
+
+.intro h3,
+.intro h4 {
+  margin: 0;
+}
+
+.profile-image {
+  width: 40%; /* Adjust width of the image */
+  max-width: 300px; /* Optional: Set a max width for the image */
+  align-self: flex-start;
+  margin-right: 80px;
+}
+
+/* About Section */
+.content-about {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 140px 180px 80px 250px;
+}
+
+/* Education Section */
+.content-education {
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 140px 80px 80px 80px;
+}
+
+/* Skills Section */
+.skills {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 140px 180px 80px 250px;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+
+/* Education Cards Styling */
+#education {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 12px 180px 80px 250px;
+  flex-wrap: wrap; /* Adjust cards for smaller screens */
+}
+
+.card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(9, 103, 211, 0.877);
+  width: 280px;
+  padding: 50px;
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(247, 68, 3, 0.922);
+}
+
+/* Style for images in a row */
+.style-img {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 35px; /* Adjust spacing between images */
+}
+.style-lib
+{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+/* Footer reset */
+#footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Skills section margin reset */
+.skills {
+  margin-bottom: 0;
+}
+
+/* Projects Section */
+#projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 12px 50px 80px 150px;
+  flex-wrap: wrap; /* Adjust cards for smaller screens */
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(9, 103, 211, 0.877);
+  width: 420px;
+  padding: 50px;
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(247, 68, 3, 0.922);
+}

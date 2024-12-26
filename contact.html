@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 0;
+          margin-top: 150px;
+
+      }
+
+      .contact-container {
+          display: flex;
+          flex-direction: column; 
+          align-items: center;
+          margin: 50px;
+          
+      }
+
+      .contact-card {
+          display: flex;
+          align-items: center;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          width: 80%;
+          margin-bottom: 20px; 
+          max-width: 500px; 
+          transition: transform 0.2s;
+      }
+
+      .contact-card:hover {
+          transform: translateY(-5px);
+      }
+
+      .logo {
+          width: 50px;
+          height: 50px;
+          margin-right: 20px;
+      }
+
+      .contact-info h3 {
+          margin: 0;
+          color: #333;
+      }
+
+      .contact-info a {
+          text-decoration: none;
+          color: #4caf50;
+          font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+  <div id="navbar"></div>
+  <h3 style="color: rgb(234, 114, 39); margin-left: 250px;">Contact 📲</h3>
+      <br />
+  <div class="contact-container">
+      <div class="contact-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail Logo" class="logo" />
+          <div class="contact-info">
+              <h3>Gmail</h3>
+              <a href="mailto:rishithachowdarycherukuri@gmail.com">Connect</a>
+          </div>
+      </div>
+      <div class="contact-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="logo" />
+          <div class="contact-info">
+              <h3>Instagram</h3>
+              <a href="https://www.instagram.com/rishi_tha_cherukuri/" target="_blank">Connect & Follow</a>
+          </div>
+      </div>
+      <div class="contact-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" class="logo" />
+          <div class="contact-info">
+              <h3>GitHub</h3>
+              <a href="https://github.com/rishitha-21bce7023" target="_blank">Connect & Follow</a>
+          </div>
+      </div>
+      <div class="contact-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn Logo" class="logo" />
+          <div class="contact-info">
+              <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/rishitha-chowdary-cherukuri-0a2314248/" target="_blank">Connect & Follow</a>
+          </div>
+      </div>
+  </div>
+  <div id="footer"></div>
+</body>
+</html>
